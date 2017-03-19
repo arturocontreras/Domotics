@@ -1,0 +1,31 @@
+Herramientas a utilizar:
+1. Quick Synthesis(QS) : Sirve para agregar sonidos grabados a la tabla.
+
+2. EasyVR Commander V 3.9.2: Sirve para guardar los sonidos a reconocer en la memoria del EASY VR. 
+
+*Los archivos que jala el QS deben ser creados por algun otro software que cree archivos de audio .WAV a 22KHz , 16bits y Mono.
+
+*En el mismo EVRC se pueden crear los sonidos grabando y entrenando.
+
+
+Proceso:
+
+1. Crear tabla de sonidos en QS.
+2. Abrir EVRC y jalar los sonidos, seleccionando previamente el puerto y presionando UPDATE CUSTOM DATA.
+[Se tiene que colocar el jumper en UP]
+3. Si se dese se puede crear los sonidos , como grabaciones mediante el micro del EASYVR.
+[Se tiene que colocar el jumper en PC], si es necesario se resetea el arduino.
+4. Luego se puede llenar cada grupo de sonidos.
+
+5. Generar el codigo .ino.
+
+6. Editar el codigo del arduino colocando el grupo que se quiere leer. GROUP_1 , GROUP_2. y asignar la funcion a cada comando.
+
+6. Cargar el codigo al arduino, sacando el jumper previamente.
+
+7. Una vez cargado el codigo se coloca el jumper en SW. y listo.
+
+
+
+
+

@@ -1,0 +1,20 @@
+Users need to train the module first before let it recognizing any voice command.
+
+G1
+1. Abrir puerta
+2.Cerrar puerta
+3. Prender Luz
+4. Apagar Luz
+
+-----------------------------------
+5.Abrir ventana (50 % = solo la mitad)
+6.Abrir ventana completamente (100%)
+7.Cerrar Ventana completamnte (100%)
+
+-------------------------------------
+G2
+8.Persiana cerradas 100%
+9.Persiana abiertas 50 %
+10.Persiana abierta 100 %
+11. Calefaccion prendida
+12. Calefaccion Apagada
